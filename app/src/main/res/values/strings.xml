@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Programming Language</string>
+    <string name="judul">Bahasa Pemograman</string>
+    <string name="desc">description</string>
+    <string name="bahasa_pemrograman">Bahasa Pemrograman</string>
+    <string name="about">about</string>
+    <string name="ahmad_mufli_ramadhan">Ahmad Mufli Ramadhan</string>
+    <string name="laxmiwatimaani_gmail_com">Laxmiwatimaani@gmail.com</string>
+
+    <string-array name="data_name">
+        <item>C</item>
+        <item>Haskell</item>
+        <item>JavaScript</item>
+        <item>Kotlin</item>
+        <item>C#</item>
+        <item>Golang</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Python</item>
+        <item>Scala</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>C adalah bahasa pemrograman prosedural yang dikembangkan oleh Dennis Ritchie pada awal 1970-an dan dikenal sebagai bahasa pemrograman tingkat menengah.
+            Bahasa ini banyak digunakan untuk pengembangan perangkat lunak sistem, seperti sistem operasi, compiler,
+            dan berbagai aplikasi yang memerlukan performa tinggi. C juga menjadi fondasi bagi banyak bahasa pemrograman lainnya seperti C++, Java, dan C#.
+            Kelebihan: C sangat cepat dan efisien karena memberikan akses langsung ke memori menggunakan pointer.
+            Bahasa ini juga sangat fleksibel dan dapat digunakan untuk membuat aplikasi dari sistem operasi hingga game.
+            Kekurangan: Tidak memiliki garbage collection, sehingga pengembang harus mengelola memori secara manual,
+            yang dapat menyebabkan kebocoran memori dan bug lainnya. C juga tidak mendukung fitur berorientasi objek secara langsung.
+        </item>
+
+        <item>Haskell adalah bahasa pemrograman fungsional murni yang pertama kali muncul pada tahun 1990.
+            Bahasa ini didesain untuk memodelkan matematika komputasional dan memiliki dukungan yang kuat untuk tipe data dan penanganan fungsi tingkat tinggi.
+            Haskell sering digunakan dalam penelitian akademis serta dalam aplikasi yang membutuhkan pendekatan fungsional,
+            seperti analisis statistik dan machine learning.
+            Kelebihan: Haskell menyediakan fitur untuk membuat kode yang bersih, modular, dan aman karena menggunakan tipe data yang kuat dan
+            penekanan pada pemrograman fungsional. Haskell juga mendukung paralelisme dengan baik.
+            Kekurangan: Haskell memiliki kurva belajar yang curam karena konsep pemrograman fungsionalnya yang berbeda dari
+            paradigma imperatif atau berorientasi objek. Selain itu, Haskell kurang populer dalam pengembangan aplikasi komersial,
+            yang mengakibatkan sedikitnya dokumentasi dan komunitas pengguna.
+        </item>
+        <item>
+            JavaScript adalah bahasa pemrograman dinamis yang banyak digunakan untuk membuat halaman web interaktif.
+            Awalnya, JavaScript hanya digunakan di sisi klien untuk manipulasi DOM,
+            tetapi dengan munculnya Node.js, JavaScript juga digunakan di sisi server,
+            menjadikannya bahasa pemrograman yang serbaguna.
+
+            Kelebihan: JavaScript merupakan bahasa yang sangat fleksibel dan digunakan secara luas dalam pengembangan web modern.
+            Bahasa ini juga didukung oleh ekosistem pustaka dan framework yang sangat besar, seperti React, Angular, dan Vue.js.
+            Kekurangan: Penanganan tipe data yang dinamis bisa menyebabkan bug yang sulit dilacak.
+            JavaScript juga sering dianggap kurang efisien untuk aplikasi dengan kebutuhan performa tinggi jika dibandingkan dengan
+            bahasa lain yang dikompilasi seperti C++.
+        </item>
+        <item>
+            Kotlin adalah bahasa pemrograman modern yang dikembangkan oleh JetBrains, dirancang untuk bekerja dengan Java
+            dan berjalan di JVM (Java Virtual Machine).Kotlin semakin populer, terutama dalam pengembangan aplikasi Android,
+            karena memberikan sintaksis yang lebih sederhana dan fitur-fitur baru yang tidak ada di Java.
+            Kelebihan: Kotlin menawarkan kode yang lebih bersih dan aman dibandingkan Java.
+            Fitur-fitur seperti null safety membantu mengurangi error runtime. Kotlin juga memiliki interoperabilitas penuh dengan Java,
+            sehingga pengembang bisa menggunakan kode Java dan Kotlin dalam satu proyek.
+            Kekurangan: Kotlin relatif baru, sehingga adopsi dan dukungannya di beberapa proyek lama yang berbasis Java masih terbatas.
+            Pengembang yang sudah terbiasa dengan Java mungkin memerlukan waktu untuk mempelajari fitur-fitur baru di Kotlin.
+        </item>
+
+        <item>
+            C# adalah bahasa pemrograman berorientasi objek yang dikembangkan oleh Microsoft untuk pengembangan aplikasi di platform .NET.
+            Bahasa ini sering digunakan dalam pengembangan aplikasi desktop, game (menggunakan Unity), dan aplikasi web berbasis .NET.
+
+            Kelebihan: C# sangat terintegrasi dengan ekosistem Microsoft, termasuk Visual Studio, yang merupakan salah satu IDE terbaik.
+            Bahasa ini juga terus diperbarui oleh Microsoft, sehingga mendukung fitur modern seperti asynchronous programming.
+            Kekurangan: C# umumnya tergantung pada platform Microsoft, meskipun .NET Core
+            telah memperluas dukungan lintas platform. Selain itu,
+            C# memiliki footprint runtime yang lebih besar dibandingkan bahasa lain seperti C++.
+        </item>
+
+        <item>
+            Go, atau Golang, adalah bahasa pemrograman yang dikembangkan oleh Google pada tahun 2009.
+            Go dirancang untuk memberikan efisiensi dan kesederhanaan dalam pengembangan aplikasi berskala besar,
+            dengan dukungan yang kuat untuk concurrency dan kompilasi yang sangat cepat.
+
+            Kelebihan: Go mendukung konkurensi dengan sangat baik melalui goroutines, menjadikannya pilihan
+                        yang baik untuk aplikasi server yang skalabel dan aplikasi cloud-native.
+                        Kompilasi yang cepat juga membuat Go ideal untuk pengembangan aplikasi yang membutuhkan kecepatan pengembangan yang tinggi.
+            Kekurangan: Go memiliki fitur yang lebih sederhana dibandingkan bahasa lain. Misalnya,
+                        tidak ada dukungan untuk generics hingga update terbaru, dan
+                        fitur seperti error handling dianggap terlalu manual oleh beberapa pengembang.
+        </item>
+        <item>
+            Java adalah bahasa pemrograman berorientasi objek yang banyak digunakan untuk pengembangan aplikasi enterprise, aplikasi Android, serta aplikasi server-side.
+            Java terkenal karena prinsipnya "write once, run anywhere," di mana kode Java dapat dijalankan di berbagai platform tanpa perlu modifikasi.
+
+            Kelebihan: Java sangat stabil dan didukung oleh ekosistem pustaka yang luas.
+            Bahasa ini juga sangat portable karena berjalan di JVM, memungkinkan aplikasi Java dijalankan di berbagai sistem operasi.
+            Kekurangan: Java sering dianggap terlalu verbose, di mana banyak kode boilerplate diperlukan untuk melakukan tugas sederhana.
+            Selain itu, kinerjanya cenderung lebih lambat dibandingkan bahasa modern yang dikompilasi langsung ke mesin.
+        </item>
+
+        <item>
+            PHP adalah bahasa skrip yang secara luas digunakan untuk pengembangan web di sisi server.
+            Awalnya, PHP dirancang untuk menghasilkan halaman web dinamis dan sering digunakan dengan sistem manajemen konten seperti WordPress.
+
+            Kelebihan: PHP mudah dipelajari dan digunakan. Banyak pengembang web pemula yang memulai kariernya dengan PHP
+            karena dokumentasi dan komunitas yang luas. PHP juga dioptimalkan untuk aplikasi web dan terintegrasi dengan
+            mudah dengan basis data seperti MySQL.
+            Kekurangan: PHP memiliki reputasi kurang baik dalam hal struktur kode dan performa.
+            Meski telah ada perbaikan dalam versi terbaru, beberapa pengembang masih menganggap
+            PHP kurang optimal untuk aplikasi yang sangat kompleks.
+        </item>
+
+        <item>
+            Python adalah bahasa pemrograman tingkat tinggi yang dirancang dengan fokus pada kesederhanaan dan keterbacaan kode.
+            Python banyak digunakan dalam berbagai domain, termasuk pengembangan web, analisis data, machine learning, dan otomatisasi sistem.
+
+            Kelebihan: Python memiliki sintaks yang mudah dipelajari, menjadikannya populer di kalangan pemula.
+            Bahasa ini juga didukung oleh pustaka yang kaya, seperti NumPy dan TensorFlow, yang mempermudah pengembangan dalam
+            bidang data science dan AI.
+            Kekurangan: Python cenderung lebih lambat dibandingkan bahasa yang dikompilasi seperti C atau Go,
+            terutama dalam aplikasi yang membutuhkan performa tinggi. Selain itu, karena sifatnya yang dinamis,
+            bug runtime dapat muncul yang tidak terdeteksi pada waktu kompilasi.
+        </item>
+        <item>
+            Scala adalah bahasa pemrograman yang berjalan di JVM dan menggabungkan fitur-fitur dari paradigma fungsional dan berorientasi objek.
+            Bahasa ini banyak digunakan dalam pengembangan aplikasi besar yang memerlukan skalabilitas tinggi, seperti sistem distribusi dan big data.
+
+            Kelebihan: Scala sangat kuat dalam menangani tugas-tugas berskala besar dengan dukungan untuk konkruensi dan paralelisme.
+            Interoperabilitasnya dengan Java juga membuat Scala pilihan populer di lingkungan JVM.
+            Kekurangan: Sintaks Scala yang kompleks membuatnya lebih sulit dipelajari, terutama bagi pengembang yang
+            tidak terbiasa dengan pemrograman fungsional. Dokumentasi dan komunitas Scala juga lebih kecil dibandingkan Java.
+
+
+        </item>
+        <item></item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/c</item>
+        <item>@drawable/haskell</item>
+        <item>@drawable/javascript</item>
+        <item>@drawable/kotlin</item>
+        <item>@drawable/cs</item>
+        <item>@drawable/golang</item>
+        <item>@drawable/java</item>
+        <item>@drawable/php</item>
+        <item>@drawable/python</item>
+        <item>@drawable/scala</item>
+    </integer-array>
+
+</resources>
