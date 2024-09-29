@@ -62,7 +62,7 @@
             android:fontFamily="@font/poppins_medium"
             tools:text = "@string/desc"/>
         <Button
-            android:id="@+id/share"
+            android:id="@+id/action_share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"

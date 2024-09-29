@@ -38,7 +38,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
         tvDetailDeskripsi = findViewById(R.id.tv_deskripsi)
         imgDetailPhoto = findViewById(R.id.img_detail)
         icBack = findViewById(R.id.back)
-        btnShare = findViewById(R.id.share)
+        btnShare = findViewById(R.id.action_share)
         tvDetailDeskripsi.text = dataBahasa?.description.toString()
         tvDetailJudul.text = dataBahasa?.judul.toString()
         imgDetailPhoto.setImageResource(dataBahasa!!.photo)
