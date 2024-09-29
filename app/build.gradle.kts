@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.airbnb.android:lottie:6.5.2")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

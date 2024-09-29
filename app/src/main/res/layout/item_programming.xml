@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
+        android:background="@color/colorSecondary"
         android:orientation="horizontal">
 
         <ImageView
@@ -38,6 +39,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
                 android:fontFamily="@font/poppins_medium"
                 tools:text="@string/judul" />
 
@@ -48,7 +50,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:ellipsize="end"
+                android:fontFamily="@font/poppins"
                 android:maxLines="5"
+                android:textColor="@color/colorDesc"
                 tools:text="@string/desc" />
         </LinearLayout>
 
